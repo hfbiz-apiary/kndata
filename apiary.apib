@@ -3,3 +3,18 @@ FORMAT: 1A
 # KN Data
 API for accessing actual KN data.
 
+## GET /katastrs
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+                "katastr": [
+                    {
+                        "katuze_kod": 605401,
+                        "okres_kod": 100200,
+                        "nazev": "Bludov"
+                    }
+                ]
+            }
